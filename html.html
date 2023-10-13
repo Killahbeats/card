@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valorant Agent Represent</title>
+</head>
+<body>
+    <audio controls autoplay loop>
+        <source src="valo.mp3" type="audio/mpeg">
+    </audio>
+    <video autoplay loop muted id="video-background">
+        <source src="valorant-blue-home-screen-free-live-wallpaper.mp4" type="video/mp4">
+    </video>
+    <div class="card-container">
+        <!-- Card for Map 1 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="agent1.png" alt="Agent 1">
+                </div>
+                <div class="card-back">
+                    <div class="image-container">
+                        <img src="map1.jpg" alt="Map 1">
+                    </div>
+                    <div class="card-content">
+                        <div class="centered-content">
+                            <h1>Bind</h1>
+                            <p>Zone of teleporting spatial control.</p>
+                            <a href="#" class="learn-more" onclick="playSoundAndOpenLink('Morocco', 'sound1')">Learn More</a>
+                            <audio id="sound1" src="CypherPick.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card for Map 2 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="agent2.png" alt="Agent 2">
+                </div>
+                <div class="card-back">
+                    <div class="image-container">
+                        <img src="map2.jpg" alt="Map 2">
+                    </div>
+                    <div class="card-content">
+                        <div class="centered-content">
+                            <h1>China</h1>
+                            <p>Three sites, Sage secures victory.</p>
+                            <a href="#" class="learn-more" onclick="playSoundAndOpenLink('China', 'sound2')">Learn More</a>
+                            <audio id="sound2" src="SagePick.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card for Map 3 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="agent3.png" alt="Agent 3">
+                </div>
+                <div class="card-back">
+                    <div class="image-container">
+                        <img src="map3.jpg" alt="Map 3">
+                    </div>
+                    <div class="card-content">
+                        <div class="centered-content">
+                            <h1>India</h1>
+                            <p>Lotus blooms with harbour's secrets.</p>
+                            <a href="#" class="learn-more" onclick="playSoundAndOpenLink('India', 'sound3')">Learn More</a>
+                            <audio id="sound3" src="HarborPick.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card for Map 4 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="agent4.png" alt="Agent 4">
+                </div>
+                <div class="card-back">
+                    <div class="image-container">
+                        <img src="map4.jpg" alt="Map 4">
+                    </div>
+                    <div class="card-content">
+                        <div class="centered-content">
+                            <h1>Japan</h1>
+                            <p>Yoru's shadow splits enemy lines.</p>
+                            <a href="#" class="learn-more" onclick="playSoundAndOpenLink('Japan', 'sound4')">Learn More</a>
+                            <audio id="sound4" src="YoruPick.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card for Map 5 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="agent5.png" alt="Agent 5">
+                </div>
+                <div class="card-back">
+                    <div class="image-container">
+                        <img src="map5.jpg" alt="Map 5">
+                    </div>
+                    <div class="card-content">
+                        <div class="centered-content">
+                            <h1>Russia</h1>
+                            <p>Sova hunts on Icebox's frost</p>
+                            <a href="#" class="learn-more" onclick="playSoundAndOpenLink('Russia', 'sound5')">Learn More</a>
+                            <audio id="sound5" src="SovaPick.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
